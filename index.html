@@ -18,7 +18,7 @@
       <div class="section-heading"><div><span class="step">01</span><h2 data-i18n="commandTitle">Command bar</h2></div><span class="muted small" data-i18n="commandHint">Try: “split selected into 100 MB parts”</span></div>
       <form id="commandForm" class="command-row"><span class="command-icon">⌘</span><input id="commandInput" autocomplete="off" placeholder="Type a command, e.g. split selected into 100 MB parts" aria-label="Command"><button class="button primary" type="submit" data-i18n="run">Run command</button></form>
       <div id="commandFeedback" class="feedback" role="status">Commands are previewed before actions that change or download files.</div>
-      <div class="quick-actions"><button class="chip" data-command="list local files">List local files</button><button class="chip" data-command="connect google drive">Connect Google Drive</button><button class="chip" data-command="copy selected">Copy selected</button><button class="chip" data-command="paste selected">Paste selected</button><button class="chip" data-command="split selected into 100 MB parts">Split selected into 100 MB parts</button><button class="chip" data-command="merge selected parts">Merge selected parts</button></div>
+      <div class="quick-actions"><button class="chip" data-command="list local files">List local files</button><button class="chip" data-command="connect google drive">Connect Google Drive</button><button class="chip" data-command="split selected into 100 MB parts">Split selected into 100 MB parts</button><button class="chip" data-command="merge selected parts">Merge selected parts</button></div>
     </section>
     <section class="columns">
       <article class="panel">
@@ -51,6 +51,6 @@
   </main>
   <div id="modalBackdrop" class="modal-backdrop" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-head"><h2 id="modalTitle">Review action</h2><button id="modalCloseBtn" class="icon-button" aria-label="Close">×</button></div><p id="modalText"></p><div class="modal-actions"><button id="modalCancelBtn" class="button secondary">Cancel</button><button id="modalConfirmBtn" class="button primary">Confirm</button></div></section></div>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=copy-paste-1"></script>
 </body>
 </html>
